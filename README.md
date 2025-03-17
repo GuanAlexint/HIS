@@ -1,6 +1,6 @@
 # HIS
 医院信息系统
-# 🏥 医院门诊挂号系统（HIS子系统）
+# 🏥 医院挂号病历系统（HIS子系统）
 
 **项目路径**：`main/project01`  
 **技术栈**：C# WinForms + SQL Server   
