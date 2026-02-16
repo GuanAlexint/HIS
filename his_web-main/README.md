@@ -1,13 +1,6 @@
 # his_web
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 医院信息系统实现web页面
 =======
-=======
->>>>>>> f07ebe9c01ec85ce85a91dbff80c15d5964d73dd
-=======
->>>>>>> b65eb77edd33d23bbfd25f1254602c5f3e470f98
 
 ## Project setup
 ```
@@ -26,11 +19,6 @@ npm run build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> f07ebe9 (er)
-=======
->>>>>>> f07ebe9c01ec85ce85a91dbff80c15d5964d73dd
 
 
 ## 数据库表初始化
@@ -200,5 +188,3 @@ INSERT INTO hospitaldepartment (officeid, officename, officetype) VALUES
 insert into hospitaldepartment(officeid,officename,officetype)values('01','内科','内科'),('02','外科','外科')
 ;
 
-=======
->>>>>>> b65eb77edd33d23bbfd25f1254602c5f3e470f98
