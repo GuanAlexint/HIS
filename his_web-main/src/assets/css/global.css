@@ -1,0 +1,148 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /*min-width: 800px;*/
+}
+
+/* 隐藏浏览器默认滚动条 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+/* 自定义滚动槽的颜色 */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* 自定义滚动条滑块的颜色 */
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+}
+
+/* 鼠标悬停时自定义滚动条滑块的颜色 */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.el-breadcrumb {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.el-card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.el-card__body {
+    padding: 10px;
+}
+
+.el-table {
+  margin-top: 10px;
+}
+
+.el-table__row {
+  font-size: 12px;
+}
+.el-table__header {
+  font-size: 14px;
+}
+
+
+.el-pagination {
+  margin-top: 15px;
+}
+
+.el-steps {
+  margin: 10px 0;
+}
+
+.el-step__title {
+  font-size: 13px;
+}
+
+.ql-editor {
+  min-height: 300px;
+}
+
+.el-table .el-table__cell {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.el-table__body tr.current-row>td.el-table__cell {
+  background-color: #69a8ea !important;
+  color: #fff
+}
+.el-input-group__prepend{
+    padding:0 10px;
+}
+.el-input-group__append{
+    padding:0 10px;
+}
+input {
+    border:1px solid #ccc;
+    border-radius: 3px;
+    outline:0;
+}
+
+.el-descriptions__body {
+    display:inline-block
+}
+
+
+.el-descriptions--mini.is-bordered .el-descriptions-item__cell {
+    padding: 6px 6px;
+}
+
+.el-descriptions__title {
+    font-size: 14px;
+}
+
+.el-carousel__button {
+  background-color: #999
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+.el-descriptions__body{
+  background: inherit;
+}
+
+/*.el-table tr {
+  background-color: transparent;
+}*/
+/*el-table_1_column_2     is-leaf el-table__cell {
+  background-color: transparent;
+
+}*/
+#t1  .el-table__cell  {
+  border-right:none
+}
+
+
+.body-main {
+    background-color: #333744;
+}
+
+[data-shape="interface-switch-rect"] {
+  cursor: pointer;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+

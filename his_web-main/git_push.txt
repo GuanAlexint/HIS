@@ -1,0 +1,66 @@
+echo "# his_api" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dhllonger/his_web.git
+git push -u origin main
+
+
+
+
+
+
+git remote add origin https://github.com/dhllonger/his_web.git
+git branch -M main
+git push -u origin main
+
+
+
+
+
+git add .
+git commit -m "s"
+git push -u origin main
+
+git push -u 中的 -u 是 --set-upstream 的缩写，意思是：
+
+将本地分支与远程分支绑定（建立追踪关系），以后你就可以直接用 git push 和 git pull，不用每次都写远程分支名了。
+
+
+# 配置代理
+git config --global http.proxy socks5 127.0.0.1:7890
+git config --global https.proxy socks5 127.0.0.1:7890
+git config --global http.proxy 127.0.0.1:7890
+git config --global https.proxy 127.0.0.1:7890
+
+
+
+
+
+
+# 查看本地仓库绑定的github
+git remote -v
+
+# 查看日志
+git log
+
+
+# 回溯
+git reset --hard[commit id]
+git checkout [commit id]
+
+
+
+# 分支
+# 查看
+git branch 
+
+# 创建
+git checkout -b develop
+
+# 合并
+git commit -m ""
+git checkout main/master
+git merge develop
+

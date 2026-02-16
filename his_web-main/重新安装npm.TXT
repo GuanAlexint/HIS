@@ -1,0 +1,4 @@
+在当前文件夹下面npm install
+然后根据需求完善安装
+
+提前配置node，vue，vue cli
